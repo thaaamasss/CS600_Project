@@ -13,3 +13,11 @@ By applying **Adversarial Perturbations** (specifically PGD with Expectation Ove
 * **Live Verification:** Integrated "Judge" model (InceptionResnetV1) to instantly verify if the protection was successful.
 * **Adjustable Privacy:** User-controlled "Noise Level" slider to balance visual quality vs. protection strength.
 * **Zero-Knowledge UI:** Simple drag-and-drop interface built with Streamlit—no coding required for the end-user.
+
+## Technology Stack
+
+* **Language:** Python 3.x
+* **Core Logic:** PyTorch, Torchvision
+* **Face Recognition Engine:** `facenet-pytorch` (Inception Resnet V1 pre-trained on VGGFace2)
+* **Image Processing:** OpenCV, Pillow, NumPy
+* **Frontend:** Streamlit
