@@ -1,0 +1,66 @@
+machine-unlearning-project
+│
+├── datasets
+│   ├── mnist
+│   ├── fashion_mnist
+│   ├── cifar10
+│   └── cifar100
+│
+├── models
+│   ├── architectures
+│   │   ├── cnn_model.py
+│   │   └── sisa_model.py
+│   │
+│   ├── trained_models
+│   │   ├── mnist
+│   │   ├── fashion_mnist
+│   │   ├── cifar10
+│   │   └── cifar100
+│
+├── learning_algorithms
+│   ├── sgd_training.py
+│   ├── adam_training.py
+│   ├── rmsprop_training.py
+│   └── sisa_training.py
+│
+├── unlearning_algorithms
+│   ├── retraining_unlearning.py
+│   ├── finetune_unlearning.py
+│   ├── sisa_unlearning.py
+│   └── influence_unlearning.py
+│
+├── deletion_strategies
+│   ├── random_deletion.py
+│   ├── class_deletion.py
+│   ├── targeted_deletion.py
+│   └── batch_deletion.py
+│
+├── experiments
+│   ├── mnist_experiment.py
+│   ├── fashion_mnist_experiment.py
+│   ├── cifar10_experiment.py
+│   └── cifar100_experiment.py
+│
+├── evaluation
+│   ├── evaluate_learning.py
+│   ├── evaluate_unlearning.py
+│   └── metrics.py
+│
+├── results
+│   ├── csv_results
+│   │   ├── learning_results.csv
+│   │   └── unlearning_results.csv
+│   │
+│   ├── plots
+│   │   ├── learning_accuracy.png
+│   │   ├── training_time.png
+│   │   └── unlearning_time.png
+│
+├── utils
+│   ├── dataset_loader.py
+│   ├── model_saver.py
+│   └── config.py
+│
+├── main.py
+├── requirements.txt
+└── README.md

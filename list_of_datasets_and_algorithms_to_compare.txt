@@ -1,0 +1,22 @@
+Datasets
+--------
+1. MNIST
+2. Fashion-MNIST
+3. CIFAR-10
+4. CIFAR-100
+
+
+Learning Algorithms
+-------------------
+1. SGD (Stochastic Gradient Descent)
+2. Adam Optimizer
+3. RMSProp Optimizer
+4. SISA Training (Sharded, Isolated, Sliced, Aggregated)
+
+
+Unlearning Algorithms
+---------------------
+1. Full Retraining
+2. Fine-Tuning Unlearning
+3. SISA Unlearning
+4. Influence Function Based Unlearning
