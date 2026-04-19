@@ -13,7 +13,7 @@ machine-unlearning-project
 │   │
 │   ├── trained_models
 │   │   ├── mnist
-│   │   ├── fashion_mnist
+│   │   ├── fashionmnist
 │   │   ├── cifar10
 │   │   └── cifar100
 │
@@ -27,7 +27,8 @@ machine-unlearning-project
 │   ├── retraining_unlearning.py
 │   ├── finetune_unlearning.py
 │   ├── sisa_unlearning.py
-│   └── influence_unlearning.py
+│   ├── influence_unlearning.py
+│   └── ssn_unlearning.py
 │
 ├── deletion_strategies
 │   ├── random_deletion.py
@@ -39,12 +40,17 @@ machine-unlearning-project
 │   ├── mnist_experiment.py
 │   ├── fashion_mnist_experiment.py
 │   ├── cifar10_experiment.py
-│   └── cifar100_experiment.py
+│   ├── cifar100_experiment.py
+│   ├── deletion_benchmark.py
+│   └── ssn_isolated_run.py
 │
 ├── evaluation
 │   ├── evaluate_learning.py
 │   ├── evaluate_unlearning.py
-│   └── metrics.py
+│   ├── metrics.py
+│   ├── benign_relearning_test.py
+│   ├── mia_evaluation.py
+│   └── plot_single_run.py
 │
 ├── results
 │   ├── csv_results
@@ -52,6 +58,7 @@ machine-unlearning-project
 │   │   └── unlearning_results.csv
 │   │
 │   ├── plots
+│   │   ├── ssn_results
 │   │   ├── learning_accuracy.png
 │   │   ├── training_time.png
 │   │   └── unlearning_time.png
